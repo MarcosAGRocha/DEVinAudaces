@@ -1,7 +1,15 @@
 body{
-    background-color: yellow;
+    background-color: #22b455;
+    margin: 0;
 }
 h1{
+    text-align: center;
+    background-image: url(imagens/rain-g9d888f78e_640.jpg);
+    margin-top: 310px;
+    
+    
+}
+h2{
     text-align: center;
 }
 p{
@@ -11,12 +19,64 @@ p{
 .estiloH1{
     font-family: Verdana;
     font-size: 20px;
-    color: brown;
+    color: #00ff41;
 }
-.estiloBotao{
+.estiloH2{
+    font-family: Verdana;
+    color: #00ff41;
+    
+}
+
+.estiloBotao1{
+    border-radius: 10%;
+    background-color: grey;
+}
+.estiloBotao2{
     padding: 10px;
     border: 2px solid black;
-    margin-top: 20px
+    margin-top: 20px;    
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+.estiloMenu{
+    overflow: hidden;
+    padding: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #22b455
+    
     ;
+        
+}
+.estiloMenu a {
+    float: right;
+    
+    text-align: center;
+    padding: 4px 6px;
+    
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #00ff41;
+    border: 2px solid #000;
+    color: white;
+    
+    transition-delay: 0.30s;
+}
+.flex-container{
+    display: flex;
+}
+footer{
+    background-color: #204829;
+    color: white;
+    text-align: center;
     
 }
